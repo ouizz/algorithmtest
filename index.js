@@ -6,6 +6,6 @@ const app = express()
 app.use(cors())
 app.use('/' , urlRouter)
 
-app.listen(1234 , () => {
-    console.log('Listening to port 5555');
-})
+app.listen(process.env.PORT || 1234, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
