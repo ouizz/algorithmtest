@@ -1,0 +1,17 @@
+{
+  "name": "example_2",
+  "version": "1.0.0",
+  "description": "WeeraMethaphattharanon",
+  "main": "example_2.js",
+  "scripts": {
+    "start": "nodemon example_2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
